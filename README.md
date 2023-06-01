@@ -5,5 +5,6 @@ A simple User/Task ownership restful API, where each user has distinct task owin
 To run this API you would need to run npm install
 You will have to set up a mongoose database by running /users/hp/mongodb/bin/mongod.exe --dbpath=/Users/hp/mongodb-data on your terminal or create a collection on mongoDB atlas.<br>
 You will have to come up with a unique JWT_SECRET key to enabe the user authentication middleware. <br>
+
 To start the server run "npm run start" on your other terminal.
 You can run test on the HTTP headers on Postman or download Rest Client extension on your visual studio code.
