@@ -1,6 +1,6 @@
 # task-manager-api  
 
-A simple User/Task ownership restful API, where each user has distict task owing to the relation established on both user schema and task schema (an owner field on taskSchema and tasks virtual on userSchema) <br>
+A simple User/Task ownership restful API, where each user has distinct task owing to the relation established on both user schema and task schema (an owner field on taskSchema and tasks virtual on userSchema) <br>
 To run this API you would need to run npm install
 You will have to set up a mongoose database by running /users/hp/mongodb/bin/mongod.exe --dbpath=/Users/hp/mongodb-data on your terminal or create a collection on mongoDB atlas.<br>
 You will have to come up with a unique JWT_SECRET key to enabe the user authentication middleware. <br>
